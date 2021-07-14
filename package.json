@@ -1,0 +1,40 @@
+{
+  "name": "my-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "keywords": [
+    "Charlie",
+    "Cohen",
+    "Portfolio"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@craco/craco": "^5.9.0",
+    "@heroicons/react": "^1.0.1",
+    "@react-three/fiber": "^7.0.5",
+    "react": "^17.0.2",
+    "react-burger-menu": "^3.0.6",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^1.1.5",
+    "three": "^0.130.1"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "devDependencies": {
+    "@react-three/fiber": "7.0.5",
+    "autoprefixer": "^9.8.6",
+    "next-transpile-modules": "^8.0.0",
+    "postcss": "^7.0.36",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
+  }
+}
