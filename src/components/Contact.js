@@ -24,7 +24,7 @@ export default function Contact() {
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
           body: encode({ "form-name": "contact", name, email, message }),
         })
-          .then(() => alert("Message envoyé!"))
+          .then(() => alert("Message non envoyé, encore en développmement! :-)"))
           .catch((error) => alert(error));
     }
 

@@ -4,8 +4,8 @@ export const projects = [
     subtitle: "React et Tailwind",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "%PUBLIC_URL%/",
+    image: "./project-1.png",
+    // link: "#",
   },
   {
     title: "La box aux plantes",
@@ -13,15 +13,15 @@ export const projects = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-2.png",
-    link: "linzell.fr",
+    link: "http://www.linzell.fr",
   },
   {
     title: "Illdly",
     subtitle: "Angular et Bootstrap",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "%PUBLIC_URL%/",
+    image: "./project-3.png ",
+    // link: "#",
   },
   {
     title: "Bootcamp",
@@ -29,7 +29,7 @@ export const projects = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-4.png",
-    link: "%PUBLIC_URL%/",
+    link: "http://www.linzell.fr/Bootcamp/",
   },
 ];
 
