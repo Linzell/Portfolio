@@ -1,7 +1,6 @@
 // src/components/Navbar.js
 
-import { ArrowRightIcon } from "@heroicons/react/solid";
-import React, {component} from "react";
+import React from "react";
 import SideBar from "./Sidebar";
 import "./Sidebar.css"
 

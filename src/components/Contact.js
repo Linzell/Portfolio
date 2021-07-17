@@ -5,9 +5,9 @@ import React from 'react';
 
 
 export default function Contact() {
-    const [name, setName] = React.useState("");
-    const [email, setEmail] = React.useState("");
-    const [message, setMessage] = React.useState("");
+    const [name] = React.useState("");
+    const [email] = React.useState("");
+    const [message] = React.useState("");
 
     function encode(data) {
         return Object.keys(data)
@@ -17,7 +17,7 @@ export default function Contact() {
           .join("&");
     }
     
-      function handleSubmit(e) {
+    function handleSubmit(e) {
         e.preventDefault();
         fetch("/", {
           method: "POST",
