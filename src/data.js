@@ -51,9 +51,9 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "CSS",
+  "HTML - CSS",
   "JavaScript",
-  "Angular",
+  "PHP",
   "React",
   "Bootstrap 5",
   "Tailwind",
